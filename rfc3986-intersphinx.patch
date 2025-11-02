@@ -1,0 +1,8 @@
+--- rfc3986-2.0.0/docs/source/conf.py.orig	2022-01-09 17:00:29.000000000 +0100
++++ rfc3986-2.0.0/docs/source/conf.py	2025-11-02 12:39:12.641921294 +0100
+@@ -167,4 +167,4 @@ texinfo_documents = [
+ 
+ 
+ # Example configuration for intersphinx: refer to the Python standard library.
+-intersphinx_mapping = {"https://docs.python.org/": None}
++intersphinx_mapping = {"python": ("https://docs.python.org/", None)}
